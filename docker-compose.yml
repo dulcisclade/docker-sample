@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  awswebapi:
+    image: ${DOCKER_REGISTRY-}awswebapi
+    build:
+      context: .
+      dockerfile: AwsWebApi/Dockerfile

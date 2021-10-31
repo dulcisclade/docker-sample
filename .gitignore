@@ -1,0 +1,9 @@
+bin/
+obj/
+.aws/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.vs/
+/.idea/
+/tmp/
